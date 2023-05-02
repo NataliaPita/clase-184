@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #aa99f7;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+#main-header {
+	background: #333;
+	color: white;
+	height: 120px;
+}	
+	#main-header a {
+		color: white;
+	}
+    /*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 10px 0 0 15px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+
+    /*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 120px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #ec6a6a;
+                    width: 105;
+            
+				}
+                
